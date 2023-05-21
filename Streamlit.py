@@ -17,7 +17,7 @@ def get_model(model_path, tokenizer_path):
 
     save_dest = Path('model')
     save_dest.mkdir(exist_ok=True)
-    cloud_model_location=""
+    cloud_model_location="https://drive.google.com/file/d/1x6huEvwfm9ovEYd-aBE44Hels7I7qum0/view?usp=sharing"
     f_checkpoint = Path("./model.zip")
 
     if not f_checkpoint.exists():

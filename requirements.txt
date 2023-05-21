@@ -1,6 +1,5 @@
 torch
 pandas
-re
 nltk
 transformers
 scipy
